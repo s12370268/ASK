@@ -5,15 +5,8 @@ using System;
 namespace ASK.UnitTesting
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTestClass
     {
-        private TestContext testContextInstance;
-        public TestContext TestContext
-        {
-            get { return testContextInstance; }
-            set { testContextInstance = value; }
-        }
-
         [TestMethod]
         public void UtcDate()
         {
