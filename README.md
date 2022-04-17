@@ -34,4 +34,4 @@ Create Fork 到自己的 Repositroy
 
 ### 同步 A.S.K
 
-
+![Imgur](https://i.imgur.com/mn0ROEx.png)
