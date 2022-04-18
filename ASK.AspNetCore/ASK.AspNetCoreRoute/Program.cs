@@ -2,6 +2,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddMvc();
 
+// 1.當想要在 自定義的 Class 取得如同 ASP NET MVC 的 HttpContext.Current.User 要加入什麼配置
+// 使用AddHttpContextAccessor
+//builder.Services.AddHttpContextAccessor();
+// AddScoped 為依賴注入
+//builder.Services.AddScoped(Class);
+
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.
