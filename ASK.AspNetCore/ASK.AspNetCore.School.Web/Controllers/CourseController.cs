@@ -13,9 +13,9 @@ namespace ASK.AspNetCore.School.Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult Edit()
+        public IActionResult Edit(int id)
         {
-            return View(CourseRepository.Get(1));
+            return View(CourseRepository.Get(id));
         }
 
         [HttpPost]

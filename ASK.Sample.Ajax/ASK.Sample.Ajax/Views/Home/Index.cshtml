@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">choos you go to page.</h1>
+    <select id="page_selector">
+        <option value="" selected>請選擇</option>
+        <option value="@Url.Action("Blog")">Blog</option>
+        <option value="@Url.Action("Carousel")">Carousel</option>
+        <option value="@Url.Action("Checkout")">Checkout</option>
+        <option value="@Url.Action("Login")">Login</option>
+    </select>
+</div>
+
+    <div id="main">
+
+    </div>
+@section scripts{
+<script src="~/js/appendPage.js"></script>
+}
